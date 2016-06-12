@@ -8,16 +8,12 @@ public class GrafixDriver {
 
 	public static void main(String[] args) {
 		
-		//Fereastra window = new Fereastra();
 		FormeDesene Ye = new FormeDesene();
 		
 		SimulatorDesen Yu = new SimulatorDesen();
 		
-		//AnotherWindow another = new AnotherWindow();
 		Operatii op = new Operatii();
-		//OperatiiMatematice opm = new OperatiiMatematice();
-		//Panels pnl = new Panels();
-		//TestList tl = new TestList();
+		
 	}
 
 }

@@ -22,7 +22,7 @@ public class FormeDesene extends JFrame implements ActionListener,ItemListener {
 	
 	JButton bLine,bOval, bRectangle;
 	JPanel pSus,cJos;
-	//Canvas cJos;
+	
 	Graphics object;
 	Choice colorList;
 	String vectorCulori[] = {"roz","gri","verde"};
@@ -84,7 +84,7 @@ public class FormeDesene extends JFrame implements ActionListener,ItemListener {
 			}
 			
 			
-			//repaint();
+			
 		}
 		if(ar.getSource()==bOval){
 			for(int i=0;i<5;i++){
@@ -101,7 +101,7 @@ public class FormeDesene extends JFrame implements ActionListener,ItemListener {
 				
 			}
 			}
-			//repaint();
+			
 		}
 		if(ar.getSource()==bRectangle){
 			for(int i=0;i<5;i++){
@@ -119,7 +119,7 @@ public class FormeDesene extends JFrame implements ActionListener,ItemListener {
 				
 			}
 			}
-			//repaint();
+			
 		}
 		
 	}
@@ -141,15 +141,5 @@ public class FormeDesene extends JFrame implements ActionListener,ItemListener {
 		
 	}
 	
-/*	public void paintComponents(Graphics g) {
-	    // Let UI Delegate paint first, which 
-	    // includes background filling since 
-	    // this component is opaque.
-
-	    super.paintComponents(g);       
-	    g.drawLine(0,0,100,100);
-	    g.setColor(Color.BLUE);
-	    //redSquare.paintSquare(g);
-	}  */
 
 }

@@ -74,12 +74,8 @@ public class Operatii extends JFrame implements ItemListener,ActionListener {
 
 	@Override
 	public void itemStateChanged(ItemEvent l) {
-		
-		
-		//if(l.getSource()==adunaR){
-			//prim.isSelected()
-		//}
-		
+				
+				
 	}
 	
 	public double isNumber(String parsabil){
